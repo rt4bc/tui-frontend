@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
+import Dashboard from './Dashboard'; // 确保路径正确
 import './App.css'
-
+ 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-3xl font-bold underline">
-        Hello, Tailwind CSS!
-      </h1>
+    <div className="App">
+      <Dashboard />
     </div>
   );
 }
